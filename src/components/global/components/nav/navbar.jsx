@@ -175,7 +175,7 @@ export default function TopMenu({page}) {
             <button className="navbar-cta-buttons contact-button" ><Link to='connect-with-us'>Contact</Link></button>
             <button className="navbar-cta-buttons about-button" onClick={(e)=>{navigator(e, 'about')}}>About</button>
           </div>
-          <Link to="waitlist"><img className='navbar-cta-waitlist-button waitlist-button' src={waitListButton} alt='Join Waitlist' /></Link>
+          <Link to="waitlist"><img className='mobile-waitlist-outside-nav navbar-cta-waitlist-button waitlist-button' src={waitListButton} alt='Join Waitlist' /></Link>
           <div className='mobile-nav burgerMenu'>
             <img onClick={(e)=>{displayBurgeMenu(e)}}  className='mobile-menu-icon'src={burgerMenu} alt="menu" />
 
@@ -189,7 +189,7 @@ export default function TopMenu({page}) {
                   onClick={(e)=>{navigator(e, 'about')}}>
                     About
                 </button>
-                <Link to="waitlist"><img className='navbar-cta-waitlist-button mobile-waitlist-button waitlist-button' src={waitListButton} alt='Join Waitlist' /></Link>
+                <Link to="waitlist"><img className='mobile-waitlist-in-nav  navbar-cta-waitlist-button mobile-waitlist-button waitlist-button' src={waitListButton} alt='Join Waitlist' /></Link>
 
               </div>
             </div>

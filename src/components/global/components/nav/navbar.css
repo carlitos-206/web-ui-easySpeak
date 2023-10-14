@@ -5,7 +5,7 @@
       top: 0px;
       z-index: +6;
       background-color: white;
-      /* padding: 0px 50px; */
+      padding: 0px 50px;
     }
     
     .navbar-brand{
@@ -108,7 +108,7 @@
   .mobile-waitlist-in-nav{
     display: none;
   }
-@media screen and (max-width: 1305px) {
+@media screen and (max-width: 1328px) {
   .desktop-nav{
     display: none;
   }
@@ -117,7 +117,15 @@
     /* display: flex; */
     /* flex-direction: column; */
   }
-
+  .navbar-container{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    z-index: +6;
+    background-color: white;
+    padding: 0px 5px;
+  }
   .waitlist-button{
     padding: 12px 12px;
     width: 134px;
@@ -167,4 +175,17 @@
   .mobile-waitlist-in-nav{
     display: block;
   }
+}
+
+@media screen and (max-width: 280px) {
+  .navbar-container{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    z-index: +6;
+    background-color: white;
+    padding: 0px 10px;
+  }
+  
 }
