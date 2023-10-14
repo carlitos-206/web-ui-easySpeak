@@ -1,0 +1,187 @@
+
+
+
+
+
+.section-1-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  width: 100%;
+  flex-shrink: 0;
+  padding: 128px 0px;
+
+}
+.section-1-text-container{
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  width: 42%;
+  height: 356px;
+}
+
+.section-1-button-container{
+  display: flex;
+  /* width: 50%; */
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-1-signup-button{
+  position: relative;
+  left: 20%;
+  width: 209px;
+}
+.section-1-signup-button:hover{
+  cursor: pointer;
+}
+.section-1-thoughts-button{
+  position: relative;
+  margin: 20px 0px;
+  left: 22.5%;
+  font-size: 16px;
+  font-family: 'Montserrat-Medium';
+  color: black;
+}
+
+.section-1-text-header{
+  font-family: 'Montserrat-SemiBold';
+  font-size: 64px;
+}
+.section-1-text-body{
+  font-family: 'Quicksand-SemiBold';
+  margin: 30px 0px 30px;
+  font-size: 20px;
+}
+.section-1-mascot-container{
+  width: 22%;
+  height: 300px;
+  padding: 4% 0%;
+
+}
+.section-1-mascotSVG{
+
+
+}
+
+@media screen and (min-width: 1536px){
+  .section-1-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-shrink: 0;
+    padding: 136.27px 0px;
+  }
+  
+  .section-1-text-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 53.33px; 
+    width: 42%; /* 42 * 1.0667 */
+    height: 379.67px; /* 356 * 1.0667 */
+    margin-right: 10px;
+  }
+  
+  .section-1-button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .section-1-signup-button{
+    position: relative;
+    left: 21.33%; /* 20 * 1.0667 */
+    width: 222.93px; /* 209 * 1.0667 */
+  }
+  
+  .section-1-thoughts-button{
+    position: relative;
+    margin: 21.33px 0px; /* 20 * 1.0667 */
+    left: 23.98%; /* 22.5 * 1.0667 */
+    font-size: 17.07px; /* 16 * 1.0667 */
+    font-family: 'Montserrat-Medium';
+    color: black;
+  }
+  
+  .section-1-text-header{
+    font-family: 'Montserrat-SemiBold';
+    font-size: 68.27px; /* 64 * 1.0667 */
+  }
+  
+  .section-1-text-body{
+    font-family: 'Quicksand-SemiBold';
+    margin: 31.99px 0px 31.99px; /* 30 * 1.0667 */
+    font-size: 21.33px; /* 20 * 1.0667 */
+  }
+  
+  .section-1-mascot-container{
+    width: 23.46%; /* 22 * 1.0667 */
+    height: 319.67px; /* 300 * 1.0667 */
+    padding: 4.27% 0%; /* 4 * 1.0667 */
+  }
+}
+
+@media screen and (min-width:1920px) {
+  .section-1-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-shrink: 0;
+    padding: 170.34px 0px; /* 136.27 * 1.25 */
+    gap: 50px;
+  }
+  
+  .section-1-text-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 66.66px; /* 53.33 * 1.25 */
+    width: 42%; /* 44.8 * 1.25 */
+    height: 474.59px; /* 379.67 * 1.25 */
+  }
+  
+  .section-1-button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .section-1-signup-button{
+    position: relative;
+    left: 26.66%; /* 21.33 * 1.25 */
+    width: 278.66px; /* 222.93 * 1.25 */
+  }
+  
+  .section-1-thoughts-button{
+    position: relative;
+    margin: 26.66px 0px; /* 21.33 * 1.25 */
+    left: 29.98%; /* 23.98 * 1.25 */
+    font-size: 21.34px; /* 17.07 * 1.25 */
+    font-family: 'Montserrat-Medium';
+    color: black;
+  }
+  
+  .section-1-text-header{
+    font-family: 'Montserrat-SemiBold';
+    font-size: 85.34px; /* 68.27 * 1.25 */
+  }
+  
+  .section-1-text-body{
+    font-family: 'Quicksand-SemiBold';
+    margin: 39.99px 0px 39.99px; /* 31.99 * 1.25 */
+    font-size: 26.66px; /* 21.33 * 1.25 */
+  }
+  
+  .section-1-mascot-container{
+    padding: 0%;
+    margin-top: 72px;
+  }
+
+  .section-1-mascotSVG{
+    width: 415px;
+    height: 400px;
+  }
+  
+}

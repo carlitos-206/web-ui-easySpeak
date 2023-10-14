@@ -1,0 +1,45 @@
+.voice-container{
+  width: 100%;
+  margin-bottom:100px ;
+}
+.voice-content{
+  display: flex;
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+.voice-content-block{
+  width: 50%;
+}
+  .block-1{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px ;
+  }
+  .block-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+    .voice-cursor:hover{
+      cursor: pointer;
+    }
+.voice-content-block-header{
+  font-family: 'Montserrat-Bold';
+  color: #252428;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+.voice-content-block-body-text{
+  margin: 20px 0px;
+  font-family: 'Quicksand-SemiBold';
+  font-size: 20px;
+  color: #252428;
+  line-height: 36px;
+}
+.voice-content-block-text{
+  font-family: 'Quicksand-Bold';
+  font-size: 24px;
+  line-height: 36px;
+}

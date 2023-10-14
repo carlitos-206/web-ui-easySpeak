@@ -1,0 +1,90 @@
+.admin-container{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.admin-signin{
+  font-size: 20px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 25px;
+  border-radius: 10px;
+}
+.admin-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.admin-field{
+  margin-bottom: 20px;
+}
+
+.admin-waitlist-container{
+  padding: 0% 5%;
+
+}
+
+.admin-waitlist-content{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  left: 15px;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.contact{
+  background-color: bisque;
+  
+}
+.not-contacted{
+  background-color: greenyellow;
+}
+.admin-waitlist-counter{
+  font-size: 32px;
+  text-decoration: underline;
+  line-height: 28px;
+  margin:15px 0px;
+}
+.admin_logout:hover{
+  cursor: pointer;
+}
+.active{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  left: 15px;
+  border: 2px solid black;
+  margin: 5px;
+  background-color: rgb(14, 212, 252);
+}
+
+
+/* Default CSS: 3 items in a row */
+.admin-waitlist-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* Adjust gap as necessary */
+}
+
+/* Medium screens: 2 items in a row */
+@media (max-width: 900px) { /* Adjust breakpoint as necessary */
+  .admin-waitlist-container {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Small screens (mobile): 1 item in a row */
+@media (max-width: 600px) { /* Adjust breakpoint as necessary */
+  .admin-waitlist-container {
+      grid-template-columns: 1fr;
+  }
+}

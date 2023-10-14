@@ -1,0 +1,372 @@
+@media screen and (min-width: 1200px){
+
+
+  .navbar-container{
+    display: flex;
+    justify-content: space-around;
+    height: 72px;
+    position: sticky;
+    top: 0px;
+    z-index: +6;
+    background-color: white;
+    padding: 0px 50px;
+
+  }
+  
+  .navbar-brand{
+    width: 56%;
+    display: flex;
+  }
+  .navbar-brand-logo:hover, .navbar-brand-text:hover{
+    cursor: pointer;
+  }
+  
+  .navbar-brand-logo{
+    width: 32px;
+    height: 32px;
+    padding: 22px 8px 22px 0px;
+  }
+  
+  .navbar-brand-text{
+    font-family: 'PoetsenOne-Regular';
+    font-size: 26px;
+    color: #FAA500;
+    height: min-content;
+    line-height: 72px;
+  }
+  
+  .navbar-cta{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .navbar-cta-buttons-container{
+    display: flex;
+  }
+  .navbar-cta-buttons, .navbar-cta-globe-button{
+    font-size: 14px;
+    padding: 5px;
+    background-color: transparent;
+    font-weight: 700;
+    font-family: 'Montserrat-SemiBold';
+    border: transparent;
+    color: #252428;
+    line-height: 20px;
+    margin-right: 10px ;
+  }
+  
+  .navbar-cta-buttons:hover{
+    cursor: pointer;
+  }
+  
+  .navbar-cta-globe-button:hover{
+    cursor: pointer;
+  }
+  .navbar-cta-waitlist-button:hover{
+    cursor: pointer;
+  }
+  .navbar-selected-language{
+    display: none;
+    color: transparent
+  }
+  
+  .navbar-cta-globe-button{
+    position: absolute;
+    right: 14%;
+  
+    background-color: white;
+  }
+  .navbar-cta-globe-button:hover{
+    border: 2px black solid ;
+    border-radius: 10px;
+    z-index: +6;
+  
+  }
+  .navbar-cta-globe-button:hover .navbar-selected-language{
+    display: block;
+    font-family: 'Montserrat-SemiBold';
+    border: transparent;
+    color: #252428;
+    position: relative;
+    width: 130px;
+  }
+  .navbar-cta-globe-button:hover .selected-lang{
+    color: #7a7a7a;
+    margin: 5px 0px;
+  }
+  .language-dropdown:hover{
+    text-decoration:underline;
+    color: #FAA500;
+  }
+  .waitlist-button{
+    padding: 16px 12px;
+    margin-left: 28px;
+    width: 134px;
+    height: 43px;
+  }
+  
+  }
+
+  @media screen and (min-width: 1440px){
+    
+    .navbar-container{
+      display: flex;
+      justify-content: space-around;
+      position: sticky;
+      top: 0px;
+      z-index: +6;
+      background-color: white;
+      padding: 0px 50px;
+    }
+    
+    .navbar-brand{
+      width: 56%;
+      display: flex;
+    }
+    .navbar-brand-logo:hover, .navbar-brand-text:hover{
+      cursor: pointer;
+    }
+    
+    .navbar-brand-logo{
+      width: 32px;
+      height: 32px;
+      padding: 22px 8px 22px 0px;
+    }
+    
+    .navbar-brand-text{
+      font-family: 'PoetsenOne-Regular';
+      font-size: 26px;
+      color: #FAA500;
+      height: min-content;
+      line-height: 72px;
+    }
+    
+    .navbar-cta{
+      display: flex;
+      justify-content: flex-end;
+      width: 36%;
+    }
+    .navbar-cta-buttons-container{
+      display: flex;
+    }
+    .navbar-cta-buttons, .navbar-cta-globe-button{
+      font-size: 16px;
+      padding: 5px;
+      background-color: transparent;
+      font-weight: 700;
+      font-family: 'Montserrat-SemiBold';
+      border: transparent;
+      color: #252428;
+      line-height: 20px;
+      margin-right: 10px ;
+    }
+    
+    .navbar-cta-buttons:hover{
+      cursor: pointer;
+    }
+    
+    .navbar-cta-globe-button:hover{
+      cursor: pointer;
+    }
+    .navbar-cta-waitlist-button:hover{
+      cursor: pointer;
+    }
+    .navbar-selected-language{
+      display: none;
+      color: transparent
+    }
+    
+    .navbar-cta-globe-button{
+      position: absolute;
+      right: 14%;
+    
+      background-color: white;
+    }
+    .navbar-cta-globe-button:hover{
+      border: 2px black solid ;
+      border-radius: 10px;
+      z-index: +6;
+    
+    }
+    .navbar-cta-globe-button:hover .navbar-selected-language{
+      display: block;
+      font-family: 'Montserrat-SemiBold';
+      border: transparent;
+      color: #252428;
+      position: relative;
+      width: 130px;
+    }
+    .navbar-cta-globe-button:hover .selected-lang{
+      color: #7a7a7a;
+      margin: 5px 0px;
+    }
+    .language-dropdown:hover{
+      text-decoration:underline;
+      color: #FAA500;
+    }
+    .waitlist-button{
+      padding: 16px 12px;
+      margin-left: 28px;
+      width: 134px;
+      height: 43px;
+    }
+    
+    }
+
+
+    @media screen and (min-width: 1536px ){
+      .navbar-container{
+        display: flex;
+        justify-content: space-around;
+        position: sticky;
+        top: 0px;
+        z-index: +6;
+        background-color: white;
+      }
+      
+      .navbar-brand{
+        width: 59.73%; 
+        display: flex;
+      }
+      .navbar-brand-logo:hover, .navbar-brand-text:hover{
+        cursor: pointer;
+      }
+      
+      .navbar-brand-logo{
+        width: 34.13px; 
+        height: 34.13px;
+        padding: 23.47px 8.53px 23.47px 0px; /* 22 * 1.0667 and 8 * 1.0667 */
+      }
+      
+      .navbar-brand-text{
+        font-family: 'PoetsenOne-Regular';
+        font-size: 30px; 
+        color: #FAA500;
+        height: min-content;
+        line-height: 76.8px; 
+      }
+      
+      .navbar-cta{
+        display: flex;
+        justify-content: flex-end;
+        width: 38.4%; /* 36 * 1.0667 */
+      }
+      .navbar-cta-buttons-container{
+        display: flex;
+      }
+      .navbar-cta-buttons, .navbar-cta-globe-button{
+        font-size: 17.07px; /* 16 * 1.0667 */
+        padding: 5.33px; /* 5 * 1.0667 */
+        background-color: transparent;
+        font-weight: 700;
+        font-family: 'Montserrat-SemiBold';
+        border: transparent;
+        color: #252428;
+        line-height: 21.33px; /* 20 * 1.0667 */
+        margin-right: 10.67px; /* 10 * 1.0667 */
+      }
+      
+      .navbar-cta-globe-button{
+        position: absolute;
+        right: 14.93%; /* 14 * 1.0667 */
+      
+        background-color: white;
+      }
+      .navbar-cta-globe-button:hover .navbar-selected-language{
+        width: 138.67px; /* 130 * 1.0667 */
+      }
+      .navbar-cta-globe-button:hover .selected-lang{
+        margin: 5.33px 0px; /* 5 * 1.0667 */
+      }
+      
+      .waitlist-button{
+        padding: 17.07px 12.8px; /* 16 * 1.0667 and 12 * 1.0667 */
+        margin-left: 29.87px; /* 28 * 1.0667 */
+        width: 142.93px; /* 134 * 1.0667 */
+        height: 45.87px; /* 43 * 1.0667 */
+      }
+    }
+    
+    
+    
+    
+    
+
+@media screen and (min-width: 1920px) {
+  .navbar-container{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    z-index: +6;
+    background-color: white;
+  }
+  
+  .navbar-brand{
+    width: 75.02%; /* 56 * 1.3403 */
+    display: flex;
+  }
+  .navbar-brand-logo:hover, .navbar-brand-text:hover{
+    cursor: pointer;
+  }
+  
+  .navbar-brand-logo{
+    width: 42.89px; /* 32 * 1.3403 */
+    height: 42.89px; /* 32 * 1.3403 */
+    padding: 29.47px 10.72px 29.47px 0px; /* 22 * 1.3403 and 8 * 1.3403 */
+  }
+  
+  .navbar-brand-text{
+    font-family: 'PoetsenOne-Regular';
+    font-size: 42px; /* 26 * 1.3403 */
+    color: #FAA500;
+    height: min-content;
+    line-height: 96.5px; /* 72 * 1.3403 */
+  }
+  
+  .navbar-cta{
+    display: flex;
+    justify-content: flex-end;
+    width: 48.21%; /* 36 * 1.3403 */
+  }
+  .navbar-cta-buttons-container{
+    display: flex;
+  }
+  .navbar-cta-buttons, .navbar-cta-globe-button{
+    font-size: 21.44px; /* 16 * 1.3403 */
+    padding: 6.7px; /* 5 * 1.3403 */
+    background-color: transparent;
+    font-weight: 700;
+    font-family: 'Montserrat-SemiBold';
+    border: transparent;
+    color: #252428;
+    line-height: 26.81px; /* 20 * 1.3403 */
+    margin-right: 13.4px; /* 10 * 1.3403 */
+  }
+  
+  .navbar-cta-globe-button{
+    position: absolute;
+    right: 18.77%; /* 14 * 1.3403 */
+    background-color: white;
+  }
+  
+  .navbar-cta-globe-button:hover .navbar-selected-language{
+    width: 174.24px; /* 130 * 1.3403 */
+  }
+  
+  .navbar-cta-globe-button:hover .selected-lang{
+    margin: 6.7px 0px; /* 5 * 1.3403 */
+  }
+  
+  .waitlist-button{
+    padding: 21.44px 16.08px; /* 16 * 1.3403 and 12 * 1.3403 */
+    margin-left: 37.53px; /* 28 * 1.3403 */
+    width: 179.68px; /* 134 * 1.3403 */
+    height: 57.64px; /* 43 * 1.3403 */
+  }
+  
+}
+
+
+
+
+

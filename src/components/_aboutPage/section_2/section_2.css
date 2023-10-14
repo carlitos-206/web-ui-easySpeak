@@ -1,0 +1,56 @@
+.about-section-2-container{
+  width: 100%;
+  background-color: #FAA500;
+  margin:100px 0px;
+  
+}
+.about-section-2-content-container{
+  position: relative;
+  left: 10%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.about-section-2-content-header{
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat-Regular';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: white;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.about-section-2-content-block{
+  padding: 0% 0% 10% 5%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+  .team-block{
+    width: 33%;
+    display: flex;
+    flex-direction:column ;
+  }
+
+  .team-block-name_empty_, .team-block-title_empty_{
+    color: transparent;
+  }
+  .team-member-profile{
+    width: 268.5px;
+    height: 320px;
+  }
+  .team-block-name{
+    font-family: 'Quicksand-Bold';
+    font-size: 24px;
+    line-height: 36px;
+    color: white;
+  }
+  .team-block-title{
+    font-family: 'Quicksand-Bold';
+    font-size: 20px;
+    line-height: 36px;
+    color: white;
+  }

@@ -1,0 +1,37 @@
+.excersises-container{
+  width: 100%;
+  display: flex;
+  margin-bottom: 100px ;
+}
+
+.excersises-content-container{
+  width: 80%;
+  position: relative;
+  left: 10%;
+  display: flex;
+}
+.excersises-phone-container{
+  width: 33%;
+  display: flex;
+  justify-content: right;
+}
+.excersises-body-container{
+  width: 66%;
+  padding: 10% 0%;
+}
+
+.excersises-body-header{
+  font-family: 'Montserrat-Bold';
+  color: #252428;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+.excersises-body-text{
+  margin: 20px 0px;
+  font-family: 'Quicksand-SemiBold';
+  font-size: 20px;
+  color: #252428;
+  line-height: 36px;
+}
+

@@ -1,0 +1,88 @@
+.waitlist-container{
+  width: 100%;
+}
+
+.waitlist-content{
+  width: 80%;
+  position: relative;
+  left: 10%;
+  padding: 80px 0px 0px;
+}
+
+.waitlist-content-header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat-Bold';
+  font-size: 40px;
+  line-height: 48px;
+  color: #252428;
+}
+
+.waitlist-name-container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 80px;
+}
+.waitlist-fName-container, .waitlist-lName-container{
+  display: flex;
+  flex-direction: column;
+  width: 50%
+}
+.waitlist-fName-container{
+  margin-right: 2.5% ;
+}
+.waitlist-label{
+  font-family: 'Montserrat-SemiBold';
+  font-size: 24px;
+  line-height: 48px;
+  color: #252428;
+}
+.waitlist-input{
+  border: #252428 2px solid;
+  height: 40px;
+  border-radius: 5px;
+  padding: 0px 10px;
+  font-family: 'Montserrat-SemiBold';
+  font-size: 18px;
+  line-height: 48px;
+  color: #252428;
+}
+
+.waitlist-email-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.waitlist-label-feeback-text{
+  font-family: "Montserrat-Regular";
+  font-size: 20px;
+  line-height: 48px;
+}
+.waitlist-comment-container{
+  margin-top: 20px;
+}
+.waitlist-comment-input{
+  width: 99%;
+  height: 100px;
+  border: #252428 solid 2px;
+  border-radius: 10px;
+  line-height: 48px;
+  padding: 1% 0% 0% 1% ;
+  font-family: 'Montserrat-SemiBold';
+  font-size: 18px;
+  line-height: 48px;
+  color: #252428;
+}
+
+.waitlist-button-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+.waitlist-button-submit:hover{
+  cursor: pointer;
+}

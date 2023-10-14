@@ -1,0 +1,79 @@
+/* Global CSS Reset */
+  *{  
+    margin: 0px;  
+    padding: 0px; 
+  }
+
+/* This is the custom font for the 'Easy Speak' header */
+  
+  @font-face {
+    font-family: 'PoetsenOne-Regular';
+    src: url('/src/components/global/fonts/PoetsenOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Quicksand-Light';
+    src: url('/src/components/global/fonts/Quicksand-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Quicksand-SemiBold';
+    src: url('/src/components/global/fonts/Quicksand-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Quicksand-Bold';
+    src: url('/src/components/global/fonts/Quicksand-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Quicksand-Regular';
+    src: url('/src/components/global/fonts/Quicksand-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('/src/components/global/fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('/src/components/global/fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('/src/components/global/fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('/src/components/global/fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+/* Global Classes  */
+  
+  .indent{
+    text-indent: 25px;
+  }
+
