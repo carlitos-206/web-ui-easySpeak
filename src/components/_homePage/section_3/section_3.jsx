@@ -9,7 +9,7 @@ export default function SectionThree() {
             <p>How it benefits you</p>
           </div>
           <div className="section-3-content-body">
-            <div className="section-3-content-block-contianer">
+            <div className="section-3-content-block-contianer section-3-content-block-1">
               
               <div className="section-3-content-block-header">
                 <p>Natural sounding conversation</p>
@@ -19,7 +19,7 @@ export default function SectionThree() {
               </div>
             </div>
 
-            <div className="section-3-content-block-contianer">
+            <div className="section-3-content-block-contianer section-3-content-block-2">
 
               <div className="section-3-content-block-header">
                 <p>Unlock new opportunities</p>
@@ -29,7 +29,7 @@ export default function SectionThree() {
               </div>
 
             </div>
-            <div className="section-3-content-block-contianer">
+            <div className="section-3-content-block-contianer section-3-content-block-3">
 
               <div className="section-3-content-block-header">
                 <p>Learn languages faster</p>
