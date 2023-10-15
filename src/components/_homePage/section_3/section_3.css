@@ -104,7 +104,7 @@
 
 @media screen and (max-width: 900px) {
   .section-3-container{
-    margin-bottom: 700px;
+    margin-bottom: 500px;
   }
 
 
@@ -130,7 +130,7 @@
 
 @media screen and (max-width: 375px) {
   .section-3-container{
-    margin-bottom: 1200px;
+    margin-bottom: 1000px;
   }
 
 
@@ -148,7 +148,7 @@
 
 @media screen and (max-width: 300px) {
   .section-3-container{
-    margin-bottom: 1000px;
+    margin-bottom: 800px;
   }
   .section-3-content-header{
     font-family: 'Montserrat-Regular';

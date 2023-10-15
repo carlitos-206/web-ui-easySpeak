@@ -1,3 +1,4 @@
+
 .voice-container{
   width: 100%;
   margin-bottom:100px ;
@@ -42,4 +43,115 @@
   font-family: 'Quicksand-Bold';
   font-size: 24px;
   line-height: 36px;
+}
+
+@media screen and (max-width: 865px) {
+  .voice-content{
+    display: flex;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    left: 0%;
+  }
+  .voice-content-block{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .voice-container{
+  width: 100%;
+  margin-bottom:100px ;
+  margin-top: 600px;
+}
+  .voice-content{
+    display: flex;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    left: 0%;
+  }
+  .voice-content-block-header{
+    font-family: 'Montserrat-Bold';
+    color: #252428;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .voice-content-block-body-text{
+    margin: 20px 0px;
+    font-family: 'Quicksand-SemiBold';
+    font-size: 20px;
+    color: #252428;
+    line-height: 36px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .voice-container{
+  width: 100%;
+  margin-bottom:100px ;
+  margin-top: 700px;
+}
+}
+@media screen and (max-width: 375px) {
+  .voice-container{
+  width: 100%;
+  margin-bottom:100px ;
+  margin-top: 100px;
+}
+}
+@media screen and (max-width: 365px) {
+  .voice-container{
+    width: 100%;
+    margin-bottom:100px ;
+    margin-top: 100px;
+  }
+  .voice-content-block-header{
+    font-family: 'Montserrat-Bold';
+    color: #252428;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 48px;
+  }
+  .voice-content-block-body-text{
+    margin: 20px 0px;
+    font-family: 'Quicksand-SemiBold';
+    font-size: 18px;
+    color: #252428;
+    line-height: 36px;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  .voice-container{
+    width: 100%;
+    margin-bottom:100px ;
+    margin-top: 0px;
+  }
+.voice-content{
+  top: 100px;
+}
+}
+
+@media screen and (max-width: 3000px) {
+  .voice-content{
+    top: 100px;
+  }
+  .voice-content-block-header{
+    font-family: 'Montserrat-Bold';
+    color: #252428;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 48px;
+  }
+  .voice-content-block-body-text{
+    margin: 20px 0px;
+    font-family: 'Quicksand-SemiBold';
+    font-size: 16px;
+    color: #252428;
+    line-height: 36px;
+  }
 }
