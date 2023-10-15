@@ -177,3 +177,23 @@
     padding: 2px;
   }
 }
+
+@media screen and (max-width: 295px) {
+  .section-2-content-header{
+    font-family: 'Montserrat-Regular';
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+  }
+  .section-2-content-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 45px 0px;
+    font-family: 'Quicksand-Regular';
+    font-weight: 600;
+    font-size: 10px;
+    color: white;
+    padding: 5px;
+  }
+}
