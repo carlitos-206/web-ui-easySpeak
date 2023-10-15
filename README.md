@@ -30,4 +30,4 @@ Once the app has been clone to your local machine, the app will run on `localhos
 The app should now launch and open your default browser
 
 ## Live Demo
-### There will be an active live demo while in development [easy.ngrok.io](https://easy.ngrok.io), if the demo isn't live contact Carlos.# web-ui-easySpeak
+### There will be an active live demo while in development [easy.ngrok.io](https://easy.ngrok.io), if the demo isn't live contact Carlos.

@@ -243,7 +243,6 @@
     margin-top: 72px;
     display: flex;
     justify-content: center;
-    width: 100%;
     position: relative;
     left: 20px;
   }
@@ -320,6 +319,10 @@
   .section-1-mascot-container{
     padding: 0%;
     margin-top: 200px;
+  }
+  .section-1-mascotSVG{
+    width: 215px;
+    height: 200px;
   }
 }
 
