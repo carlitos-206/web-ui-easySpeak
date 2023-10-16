@@ -1,7 +1,6 @@
 .team-container{
-  width: 63%;
+  width: 100%;
   position: relative;
-  left: 16%;
   margin-top: 300px;
   margin-bottom: 100px;
   display: flex;
@@ -9,11 +8,16 @@
   align-items: center;
 }
 .team-intro{
+  width: 820px;
   font-family: 'Montserrat-Bold';
   font-size: 32px;
   line-height: 42px;
   color: #252428;
   margin-bottom: 20px;
+  
+}
+.team-highlight{
+  color: #FAA500;
 }
 
 .team-name{
@@ -24,6 +28,7 @@
 }
 
 @media screen and (max-width: 900px) {
+
   .team-container{
     width: 80%;
     position: relative;
@@ -35,16 +40,45 @@
     flex-direction: column;
     align-items: center;
   }
-}
 
-@media screen and (max-width: 600px) {
   .team-intro{
+    width: 620px;
     font-family: 'Montserrat-Bold';
-    font-size: 26px;
+    font-size: 32px;
     line-height: 42px;
     color: #252428;
     margin-bottom: 20px;
+    
   }
+}
+
+@media screen and (max-widtg: 700px){
+  .team-intro{
+    width: 520px;
+    font-family: 'Montserrat-Bold';
+    font-size: 32px;
+    line-height: 42px;
+    color: #252428;
+    margin-bottom: 20px;
+    padding: 5%;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .team-intro{
+    width: 520px;
+    font-family: 'Montserrat-Bold';
+    font-size: 32px;
+    line-height: 42px;
+    color: #252428;
+    margin-bottom: 20px;
+    padding: 5%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+
   
   .team-name{
     font-family: 'Montserrat-SemiBold';
@@ -56,11 +90,13 @@
 
 @media screen and (max-width: 575px) {
   .team-intro{
+    width: 400px;
     font-family: 'Montserrat-Bold';
-    font-size: 20px;
+    font-size: 18px;
     line-height: 42px;
     color: #252428;
     margin-bottom: 20px;
+    margin-left: 10px;
   }
   
   .team-name{
@@ -71,8 +107,30 @@
   }
 }
 
+
+@media screen and (max-width: 420px) {
+  .team-intro{
+    width: 350px;
+    font-family: 'Montserrat-Bold';
+    font-size: 18px;
+    line-height: 42px;
+    color: #252428;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+  
+  .team-name{
+    font-family: 'Montserrat-SemiBold';
+    font-size: 16px;
+    line-height: 28px;
+    color: #252428;
+  }
+}
+
+
 @media screen and (max-width: 400px) {
   .team-intro{
+    width: 350px;
     font-family: 'Montserrat-Bold';
     font-size: 18px;
     line-height: 42px;
