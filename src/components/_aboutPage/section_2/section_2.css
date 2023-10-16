@@ -88,6 +88,17 @@
     line-height: 36px;
     color: white;
 }
+.about-section-2-content-header{
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat-Regular';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: white;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
 }
 
 
