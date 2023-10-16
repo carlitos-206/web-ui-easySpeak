@@ -13,17 +13,21 @@ export default function Footer() {
           <p className="footer-container-left-text">at EasySpeak, we are</p>
           <p className="footer-container-left-text">committed to helping you</p>
           <p className="footer-container-left-text">improve your pronunciation</p>
-          <p className="footer-container-left-bottom">© 2023 EasySpeak, Inc. All Rights Reserved.</p>
         </div>
         <div className="footer-container-content-right">
           <div className="footer-right-icon-container">
               <img className="footer-right-icon" onClick={(e)=>{linkConnectionSendOff(e,"", 'LinkedIn' )}} src={linkedin_clear} alt="LinkedIn" />
               <img className="footer-right-icon" onClick={(e)=>{linkConnectionSendOff(e,"", 'Email' )}} src={envelope} alt="Email" />
           </div>
-          <div className="footer-text-container">
-            <p className="footer-container-right-text">Speaking made easy</p>
-          </div>
         </div>
+      </div>
+      <div className="footer-text-container-bottom-solo">
+            <div className="footer-bottom-container-left">
+              <p className="footer-container-left-bottom">© 2023 EasySpeak, Inc. All Rights Reserved.</p>
+            </div>
+            <div className="footer-bottom-container-right">
+              <p className="footer-container-right-text">Speaking made easy</p>
+            </div>
       </div>
     </div>
   );

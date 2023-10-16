@@ -306,6 +306,9 @@
     font-size: 16px;
     line-height: 36px;
   }
+  .section-1-mascotSVG{
+    height: 250px;
+  }
 }
 
 @media screen and (max-width:305px) {
@@ -318,7 +321,7 @@
     margin-top: 200px;
   }
   .section-1-mascotSVG{
-    width: 215px;
+    width: 200px;
     height: 200px;
   }
 }

@@ -175,10 +175,9 @@ export default function TopMenu({page}) {
             <button className="navbar-cta-buttons contact-button" ><Link to='connect-with-us'>Contact</Link></button>
             <button className="navbar-cta-buttons about-button" onClick={(e)=>{navigator(e, 'about')}}>About</button>
           </div>
-          <Link to="waitlist"><img className='mobile-waitlist-outside-nav navbar-cta-waitlist-button waitlist-button' src={waitListButton} alt='Join Waitlist' /></Link>
+          <Link to="waitlist"><img className='mobile-waitlist-outiside-nav navbar-cta-waitlist-button waitlist-button' src={waitListButtonBlack} alt='Join Waitlist' /></Link>
           <div className='mobile-nav burgerMenu'>
-            <img onClick={(e)=>{displayBurgeMenu(e)}}  className='mobile-menu-icon'src={burgerMenu} alt="menu" />
-
+            <img onClick={(e)=>{displayBurgeMenu(e)}} className='mobile-menu-icon'src={burgerMenu} alt="menu" />
             <div>
               <div id='mobile-nav-container' className="mobile-navbar-cta-buttons-container">
                 
