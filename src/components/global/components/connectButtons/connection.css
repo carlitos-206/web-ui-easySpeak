@@ -27,7 +27,6 @@
   margin: 0px 40px;
   border: #252428 solid 2px;
   padding: 32px;
-  width: 416px;
   gap: 64px;
   /* background: #E6E6E6; */
   width: 350px;
@@ -57,4 +56,76 @@
   font-family: 'Quicksand-SemiBold';
   font-size: 16px;
   line-height: 28px;
+}
+@media screen  and (max-width: 1250px) {
+  .connection-content-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+}
+
+@media screen  and (max-width: 500px) {
+  .connection-content-row-item{
+    width: 275px;
+    gap: 25px;
+  }
+}
+
+@media screen  and (max-width: 500px) {
+  .connection-content-row-item{
+    width: 250px;
+    gap: 15px;
+  }
+}
+
+@media screen  and (max-width: 350px) {
+  .connection-content-row-item{
+    width: 250px;
+    gap: 25px;
+  }
+  .connection-header{
+    font-family:'Montserrat-Regular';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #252428;
+  }
+  .connection-content-row-item-body-title{
+    font-family: 'Montserrat-SemiBold';
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+  .connection-content-row-item-body-label{
+    font-family: 'Quicksand-SemiBold';
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
+
+@media screen  and (max-width: 320px) {
+  .connection-content-row-item{
+    width: 190px;
+    gap: 20px;
+  }
+  .connection-header{
+    font-family:'Montserrat-Regular';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #252428;
+  }
+  .connection-content-row-item-body-title{
+    font-family: 'Montserrat-SemiBold';
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+  .connection-content-row-item-body-label{
+    font-family: 'Quicksand-SemiBold';
+    font-size: 12px;
+    line-height: 28px;
+  }
 }

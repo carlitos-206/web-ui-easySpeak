@@ -86,3 +86,9 @@
 .waitlist-button-submit:hover{
   cursor: pointer;
 }
+
+@media screen and (max-width: 650px) {
+  .waitlist-button-submit{
+    width: 100%;
+  }
+}

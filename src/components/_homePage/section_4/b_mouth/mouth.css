@@ -70,10 +70,9 @@
     display: flex;
     justify-content: center;
     position: relative;
-    left: 10%;
   }
   .mouth-phone-svg{
-    width: 80%;
+    width: 50%;
   }
 }
 
