@@ -7,7 +7,7 @@ export default function Mouth() {
     <div className="mouth-container">
       <div className="mouth-content-container">
         <div className="mouth-phone-container">
-          <img src={mouthPhone} alt="Phone Camera Sample" />
+          <img className="mouth-phone-svg" src={mouthPhone} alt="Phone Camera Sample" />
         </div>
         <div className="mouth-body-container">
           <div className="mouth-body-header">

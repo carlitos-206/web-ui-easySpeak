@@ -108,7 +108,7 @@
   .mobile-waitlist-in-nav{
     display: none;
   }
-@media screen and (max-width: 1328px) {
+@media screen and (max-width: 1350px) {
   .desktop-nav{
     display: none;
   }
