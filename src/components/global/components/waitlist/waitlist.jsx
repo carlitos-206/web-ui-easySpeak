@@ -77,16 +77,16 @@ export default function Waitlist() {
           <form className="waitlist-content-form">
             <div className="waitlist-name-container">
               <div className="waitlist-fName-container fName">
-                <label className="waitlist-label fName-label" htmlFor="fName">First Name<span>*</span></label>
+                <label className="waitlist-label fName-label" htmlFor="fName">First Name<span className="waitlist-asterik">*</span></label>
                 <input className="waitlist-input fName-input" type="text" onChange={(e)=>{setFName(e.target.value)}} required/>
               </div>
               <div className="waitlist-lName-container lName">
-                <label className="waitlist-label lName-label" htmlFor="lName">Last Name<span>*</span></label>
+                <label className="waitlist-label lName-label" htmlFor="lName">Last Name<span className="waitlist-asterik">*</span></label>
                 <input className="waitlist-input lName-input" type="text" onChange={(e)=>{setLName(e.target.value)}} required/>
               </div>
             </div>
             <div className="waitlist-email-container ">
-              <label className="waitlist-label email-label" htmlFor="email">Email<span>*</span></label>
+              <label className="waitlist-label email-label" htmlFor="email">Email<span className="waitlist-asterik">*</span></label>
               <input className="waitlist-input email-input" type="email" onChange={(e)=>{setEmail(e.target.value)}} required/>
             </div>
             <div className="waitlist-comment-container">

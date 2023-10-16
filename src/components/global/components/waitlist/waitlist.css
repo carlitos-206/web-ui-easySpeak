@@ -86,7 +86,9 @@
 .waitlist-button-submit:hover{
   cursor: pointer;
 }
-
+.waitlist-asterik{
+  color: red;
+}
 @media screen and (max-width: 650px) {
   .waitlist-button-submit{
     width: 100%;
