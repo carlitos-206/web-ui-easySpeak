@@ -87,6 +87,34 @@
     font-size: 13px;
     line-height: 36px;
     color: white;
-    background-color: RED;
 }
 }
+
+
+@media screen and (max-width: 420px) {
+.about-section-2-content-header{
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat-Regular';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: white;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+}
+
+@media screen and (max-width: 340px) {
+  .about-section-2-content-header{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat-Regular';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 48px;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  }
