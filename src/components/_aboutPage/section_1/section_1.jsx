@@ -15,7 +15,7 @@ export default function SectionOne(){
       </div>
       <div className="about-section-one-right-content">
         <div className="about-section-one-right-content-body">
-          <img src={TeamPhoto} alt='team' />
+          <img className="about-section-team-photo"src={TeamPhoto} alt='team' />
           <p>Leaner Startups AI Hackathon 2.0 at SURF Incubator, 2023</p>
         </div>
       </div>
