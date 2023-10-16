@@ -35,3 +35,76 @@
   line-height: 36px;
 }
 
+@media screen and (max-width:1200px) {
+  .excersises-content-container{
+    width: 100%;
+    position: relative;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .excersises-body-container{
+    width: 80%;
+    padding: 10% 10%;
+  }
+  .excersises-phone-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .excersises-phone-svg{
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .excersises-body-header{
+    font-family: 'Montserrat-Bold';
+    color: #252428;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .excersises-body-text{
+    margin: 20px 0px;
+    font-family: 'Quicksand-SemiBold';
+    font-size: 20px;
+    color: #252428;
+    line-height: 36px;
+  }
+  
+}
+@media screen and (max-width: 365px) {
+  .excersises-body-header{
+    font-family: 'Montserrat-Bold';
+    color: #252428;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 48px;
+  }
+  .excersises-body-text{
+    margin: 20px 0px;
+    font-family: 'Quicksand-SemiBold';
+    font-size: 18px;
+    color: #252428;
+    line-height: 36px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .excersises-body-header{
+    font-family: 'Montserrat-Bold';
+    color: #252428;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 48px;
+  }
+  .excersises-body-text{
+    margin: 20px 0px;
+    font-family: 'Quicksand-SemiBold';
+    font-size: 16px;
+    color: #252428;
+    line-height: 36px;
+  }
+}

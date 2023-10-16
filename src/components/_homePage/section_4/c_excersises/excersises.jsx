@@ -16,7 +16,7 @@ export default function Excersises() {
           </div>
         </div>
         <div className="excersises-phone-container">
-          <img src={excersisesPhone} alt="Phone Camera Sample" />
+          <img className="excersises-phone-svg"src={excersisesPhone} alt="Phone Camera Sample" />
         </div>
       </div>
     </div>

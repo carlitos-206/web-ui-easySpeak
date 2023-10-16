@@ -61,68 +61,19 @@
   .mouth-body-text{
     margin: 20px 0px;
     font-family: 'Quicksand-SemiBold';
-    font-size: 16px;
-    color: #252428;
-    line-height: 36px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .mouth-body-header{
-    font-family: 'Montserrat-Bold';
-    color: #252428;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 48px;
-  }
-  .mouth-body-text{
-    margin: 20px 0px;
-    font-family: 'Quicksand-SemiBold';
-    font-size: 16px;
-    color: #252428;
-    line-height: 36px;
-  }
-}
-
-@media screen and (max-width: 710px) {
-  .mouth-body-header{
-    font-family: 'Montserrat-Bold';
-    color: #252428;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 48px;
-  }
-  .mouth-body-text{
-    margin: 20px 0px;
-    font-family: 'Quicksand-SemiBold';
-    font-size: 16px;
+    font-size: 20px;
     color: #252428;
     line-height: 36px;
   }
   .mouth-phone-container{
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     position: relative;
     left: 10%;
   }
-}
-
-
-@media screen and (max-width: 580px) {
-  .mouth-body-header{
-    font-family: 'Montserrat-Bold';
-    color: #252428;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 48px;
-  }
-  .mouth-body-text{
-    margin: 20px 0px;
-    font-family: 'Quicksand-SemiBold';
-    font-size: 20px;
-    color: #252428;
-    line-height: 36px;
+  .mouth-phone-svg{
+    width: 80%;
   }
 }
 
