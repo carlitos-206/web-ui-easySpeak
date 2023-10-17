@@ -1,6 +1,6 @@
 import React from "react";
 import "./voice.css";
-import audioSample from "./files/placeholder-audio.mp3"
+import audioSample from "./files/easySpeakAudio.wav"
 
 import voiceIcon from "../../../../images/icons/voice.svg"
 
